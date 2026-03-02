@@ -13,21 +13,23 @@ background-color:rgb(135, 206, 235);
 p:last-child{
 	color:red;
 }
+li:nth-of-type(odd){
+	background-color:white;
+}
 
 li{
 	background-color:grey;
 	width:50%;
 	padding:10px;
 }
-.odd{
-	background-color:white
-}
+
 li:first-of-type{
 	font-size:22px;
 }
 li:last-of-type{
 	font-size:22px;
 }
+nth-last-child()
 li:nth-last-child(3){
 	background-color:pink;
 }
