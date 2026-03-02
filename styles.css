@@ -29,7 +29,6 @@ li:first-of-type{
 li:last-of-type{
 	font-size:22px;
 }
-nth-last-child()
 li:nth-last-child(3){
 	background-color:pink;
 }
